@@ -51,10 +51,9 @@ class MediaProjectionService : Service() {
 
 
         val builder = NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-            .setContentTitle("Foreground Service")
+            .setContentTitle("iClassifier")
             .setContentText("Running")
             .setSmallIcon(android.R.drawable.ic_notification_overlay)
-
 //        Log.d("icon:::", "${iconResourceId}")
 //
 //        if (iconResourceId != "") {
